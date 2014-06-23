@@ -2,7 +2,9 @@
   "name": "micro-hackathon-starter",
   "version": "0.0.0",
   "scripts": {
-    "dev": "./node_modules/.bin/coffee --compile --watch static/js/*.coffee & ./node_modules/.bin/coffee --compile --watch *.coffee & ./node_modules/.bin/nodemon server.js",
+    "dev-client": "./node_modules/.bin/coffee --compile --watch static/js/*.coffee",
+    "dev-server": "./node_modules/.bin/nodemon server.coffee",
+    "build": "./node_modules/.bin/coffee --compile --watch static/js/*.coffee; ./node_modules/.bin/coffee --compile --watch server.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexander Gugel <alexander.gugel@gmail.com>",
