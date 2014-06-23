@@ -47,6 +47,13 @@ Getting started
 
     This script will actually compile your server.coffee file into a server.js file.
 
+Additional scripts
+------------------
+
+* `npm start`
+
+  As soon as you compiled your server.coffee-file using `npm run-script build-server`, you can use this script in order to execute your server.js file. This is especially useful for platforms like OpenShift, since these services typically use `npm start` in order to start your app.
+
 License
 -------
 

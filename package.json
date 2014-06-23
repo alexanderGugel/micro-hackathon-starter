@@ -2,6 +2,7 @@
   "name": "micro-hackathon-starter",
   "version": "0.0.0",
   "scripts": {
+    "start": "node server",
     "dev-client": "./node_modules/.bin/coffee --compile --watch static/js/*.coffee",
     "dev-server": "./node_modules/.bin/nodemon server.coffee",
     "build-server": "./node_modules/.bin/coffee --compile server.coffee",
