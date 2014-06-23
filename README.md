@@ -1,3 +1,4 @@
+![MacBook Photo](http://unsplash.s3.amazonaws.com/IMG_5752.jpg)
 Micro Hackathon Starter [![Dependency Status](https://gemnasium.com/alexanderGugel/micro-hackathon-starter.svg)](https://gemnasium.com/alexanderGugel/micro-hackathon-starter)
 =======================
 
@@ -81,4 +82,5 @@ THE SOFTWARE.
 
 Credits
 -------
-* Name inspired by [Hackathon Starter](https://github.com/sahat/hackathon-starter)
+* Name inspired by [Hackathon Starter](https://github.com/sahat/hackathon-starter).
+* MacBook-Photo by [Alejandro Escamilla](http://alejandroescamilla.com/), published by [UNSPLASH](http://unsplash.com/post/51494993093/download-by-alejandro-escamilla);
