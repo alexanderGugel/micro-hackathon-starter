@@ -43,6 +43,10 @@ Getting started
 
     This script will watch and execute your server.coffee. It does **not** compile it into a server.js file, since it uses [nodemon](http://nodemon.io/).
 
+* `npm run-script build-server`
+
+    This script will actually compile your server.coffee file into a server.js file.
+
 License
 -------
 
