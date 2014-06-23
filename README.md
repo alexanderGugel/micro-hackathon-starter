@@ -29,7 +29,8 @@ Getting started
 ---------------
 
 1. Clone this repository.
-  `https://github.com/alexanderGugel/micro-hackathon-starter.git`
+
+  `git clone https://github.com/alexanderGugel/micro-hackathon-starter.git your-awesome-project`
 
 2. Run npm scripts.
 
@@ -41,16 +42,15 @@ Getting started
 
     This script will watch and execute your server.coffee. It does **not** compile it into a server.js file, since it uses [nodemon](http://nodemon.io/).
 
-3. `npm run-script build-server` (optional, after you are done with building your app)
+3. Finished?
+
+  * `npm run-script build-server`
 
     This script will actually compile your server.coffee file into a server.js file.
 
-Additional scripts
-------------------
+  * `npm start`
 
-* `npm start`
-
-  As soon as you compiled your server.coffee-file using `npm run-script build-server`, you can use this script in order to execute your server.js file. This is especially useful for platforms like OpenShift, since these services typically use `npm start` in order to start your app.
+    As soon as you have compiled your server.coffee-file using `npm run-script build-server`, you can use this script in order to execute your server.js file. This is especially useful for platforms like OpenShift, since these services typically use `npm start` in order to start your app.
 
 License
 -------
