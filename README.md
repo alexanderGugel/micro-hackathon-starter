@@ -7,6 +7,42 @@ During my time at [Hack Reactor](http://www.hackreactor.com/), I realized that I
 
 This repository is meant to be a boilerplate for micro projects (~ 2h). Nevertheless, it is also suited as a starting point for bigger projects.
 
+Dependencies explained
+----------------------
+
+* coffee-script
+
+  [CoffeeScript](http://coffeescript.org/) provides a useful layer of abstraction on top of JavaScript.
+
+* express
+
+  [Express](http://expressjs.com/) is a "minimal and flexible Node.JS web application framework". It is the de facto standard for web apps written in JavaScript using Node.JS.
+
+* nodemon
+
+  [Nodemon](http://nodemon.io/) watches your server.coffee file. This way, you don't have to constantly restart your server. Nodemon is intended to take care of that. The `npm run-script dev-server` command uses the `nodemon`-command.
+
+* redis
+
+  [node_redis](https://github.com/mranney/node_redis) is the Redis client for Node.JS. You don't have to have [Redis](http://redis.io/) installed in order to use this boilerplate. But if you do, be sure to have Redis up and running.
+
+Getting started
+---------------
+
+1. Clone this repository.
+
+  `https://github.com/alexanderGugel/micro-hackathon-starter.git`
+
+2. Run npm scripts.
+
+  * `npm run-script dev-client`
+
+    This script will watch and recompile all your .coffee-files inside `static/js`.
+
+  * `npm run-script dev-server`
+
+    This script will watch and execute your server.coffee. It does **not** compile it into a server.js file, since it uses [nodemon](http://nodemon.io/).
+
 License
 -------
 
