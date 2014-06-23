@@ -23,14 +23,12 @@ Dependencies explained
   [Nodemon](http://nodemon.io/) watches your server.coffee file. This way, you don't have to constantly restart your server. Nodemon is intended to take care of that. The `npm run-script dev-server` command uses the `nodemon`-command.
 
 * redis
-
   [node_redis](https://github.com/mranney/node_redis) is the Redis client for Node.JS. You don't have to have [Redis](http://redis.io/) installed in order to use this boilerplate. But if you do, be sure to have Redis up and running.
 
 Getting started
 ---------------
 
 1. Clone this repository.
-
   `https://github.com/alexanderGugel/micro-hackathon-starter.git`
 
 2. Run npm scripts.
@@ -81,4 +79,5 @@ THE SOFTWARE.
 
 Credits
 -------
-* Name inspired by [Hackathon Starter](https://github.com/sahat/hackathon-starter)
+
+* Name inspired by [Hackathon Starter](https://github.com/sahat/hackathon-starter).
