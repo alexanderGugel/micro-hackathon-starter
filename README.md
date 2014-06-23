@@ -1,4 +1,4 @@
-Micro Hackathon Starter
+Micro Hackathon Starter [![Dependency Status](https://gemnasium.com/alexanderGugel/micro-hackathon-starter.svg)](https://gemnasium.com/alexanderGugel/micro-hackathon-starter)
 =======================
 
 A boilerplate for **Node.JS** web applications fine-tuned for Micro Hackathons.
