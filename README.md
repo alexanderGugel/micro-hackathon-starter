@@ -7,25 +7,6 @@ During my time at [Hack Reactor](http://www.hackreactor.com/), I realized that I
 
 This repository is meant to be a boilerplate for micro projects (~ 2h). Nevertheless, it is also suited as a starting point for bigger projects.
 
-Dependencies explained
-----------------------
-
-* coffee-script
-
-  [CoffeeScript](http://coffeescript.org/) provides a useful layer of abstraction on top of JavaScript.
-
-* express
-
-  [Express](http://expressjs.com/) is a "minimal and flexible Node.JS web application framework". It is the de facto standard for web apps written in JavaScript using Node.JS.
-
-* nodemon
-
-  [Nodemon](http://nodemon.io/) watches your server.coffee file. This way, you don't have to constantly restart your server. Nodemon is intended to take care of that. The `npm run-script dev-server` command uses the `nodemon`-command.
-
-* redis
-
-  [node_redis](https://github.com/mranney/node_redis) is the Redis client for Node.JS. You don't have to use this. But if you do, ensure that you have [Redis](http://redis.io/) up and running.
-
 Getting started
 ---------------
 
@@ -33,25 +14,21 @@ Getting started
 
   `git clone https://github.com/alexanderGugel/micro-hackathon-starter.git your-awesome-project`
 
-2. Run npm scripts.
+2. Run Grunt.
 
-  * `npm run-script dev-client`
+  Grunt will watch and compile your server.coffee and static/client.coffee file. It also takes care of your main.sass-file.
 
-    This script will watch and recompile all your .coffee-files inside `static/js`.
+3. Use Nodemon.
 
-  * `npm run-script dev-server`
+  Use `nodemon server.js` in order to get rid of the bad habit of constantly having to restart your server.
 
-    This script will watch and execute your server.coffee. It does **not** compile it into a server.js file, since it uses [nodemon](http://nodemon.io/).
+4. Write your super-awesome app.
 
-3. Finished?
+  Edit server.coffee and everything inside the "static" directory.
 
-  * `npm run-script build-server`
+3. Finished? `npm start` it!
 
-    This script will actually compile your server.coffee file into a server.js file.
-
-  * `npm start`
-
-    As soon as you have compiled your server.coffee-file using `npm run-script build-server`, you can use this script in order to execute your server.js file. This is especially useful for platforms like OpenShift, since these services typically use `npm start` in order to start your app.
+  As soon as you have compiled your server.coffee-file using Grunt, you can use this script in order to execute your server.js file. This is especially useful for platforms like OpenShift, since these services typically use `npm start` in order to start your app.
 
 License
 -------
