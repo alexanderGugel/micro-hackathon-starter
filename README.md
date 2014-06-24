@@ -26,7 +26,7 @@ Getting started
 
   Edit server.coffee and everything inside the "static" directory.
 
-3. Finished? `npm start` it!
+5. Finished? `npm start` it!
 
   As soon as you have compiled your server.coffee-file using Grunt, you can use this script in order to execute your server.js file. This is especially useful for platforms like OpenShift, since these services typically use `npm start` in order to start your app.
 
