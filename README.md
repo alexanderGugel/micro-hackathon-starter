@@ -12,7 +12,7 @@ Getting started
 
 1. Clone this repository.
 
-  `git clone https://github.com/alexanderGugel/micro-hackathon-starter.git your-awesome-project`
+  `git clone --depth=1 https://github.com/alexanderGugel/micro-hackathon-starter.git your-awesome-project`
 
 2. Run Grunt.
 
