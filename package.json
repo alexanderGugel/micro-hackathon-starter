@@ -3,17 +3,18 @@
   "version": "0.0.0",
   "scripts": {
     "start": "node server",
-    "dev-client": "./node_modules/.bin/coffee --compile --watch static/js/*.coffee",
-    "dev-server": "./node_modules/.bin/nodemon server.coffee",
-    "build-server": "./node_modules/.bin/coffee --compile server.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexander Gugel <alexander.gugel@gmail.com>",
   "dependencies": {
-    "coffee-script": "^1.7.1",
     "express": "^4.4.4",
-    "nodemon": "^1.2.0",
     "redis": "^0.10.3"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-watch": "^0.6.1"
+  }
 }

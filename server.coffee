@@ -1,8 +1,9 @@
 express = require 'express'
-app = express()
+server = express()
 
-app.use(express.static(__dirname + '/static'))
+server.use(express.static(__dirname + '/static'))
+
 
 port = process.env.PORT || 3141
-app.listen port, () ->
+server.listen port, () ->
   console.log "Express server listening on port #{port}"
