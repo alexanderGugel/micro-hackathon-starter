@@ -7,6 +7,14 @@ During my time at [Hack Reactor](http://www.hackreactor.com/), I realized that I
 
 This repository is meant to be a boilerplate for micro projects (~ 2h). Nevertheless, it is also suited as a starting point for bigger projects.
 
+Prerequisites
+-------------
+
+* Node.JS and npm (of course).
+* [Bower](http://bower.io/) for front-end package management.
+* [Grunt](http://gruntjs.com/) as a task runner.
+* [Nodemon](http://nodemon.io/) will take care of restarting your server if needed.
+
 Getting started
 ---------------
 
@@ -14,19 +22,23 @@ Getting started
 
   `git clone --depth=1 https://github.com/alexanderGugel/micro-hackathon-starter.git your-awesome-project`
 
-2. Run Grunt.
+2. Install dependencies.
+
+  `npm install` for server-side dependencies. If you already specified client-side dependencies, `bower install` them.
+
+3. Run Grunt.
 
   Grunt will watch and compile your server.coffee and static/client.coffee file. It also takes care of your main.sass-file.
 
-3. Write your super-awesome app.
+4. Write your super-awesome app.
 
   Edit server.coffee and everything inside the "static" directory.
 
-4. Use Nodemon.
+5. Use Nodemon.
 
   Use `nodemon server.js` in order to get rid of the bad habit of constantly having to restart your server.
 
-5. Finished? `npm start` it!
+6. Finished? `npm start` it!
 
   As soon as you have compiled your server.coffee-file using Grunt, you can use this script in order to execute your server.js file. This is especially useful for platforms like OpenShift, since these services typically use `npm start` in order to start your app.
 
