@@ -18,13 +18,13 @@ Getting started
 
   Grunt will watch and compile your server.coffee and static/client.coffee file. It also takes care of your main.sass-file.
 
-3. Use Nodemon.
-
-  Use `nodemon server.js` in order to get rid of the bad habit of constantly having to restart your server.
-
-4. Write your super-awesome app.
+3. Write your super-awesome app.
 
   Edit server.coffee and everything inside the "static" directory.
+
+4. Use Nodemon.
+
+  Use `nodemon server.js` in order to get rid of the bad habit of constantly having to restart your server.
 
 5. Finished? `npm start` it!
 
