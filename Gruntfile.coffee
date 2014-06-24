@@ -1,10 +1,10 @@
-module.exports = (grunt) ->
+module.exports = ->
 
-  grunt.loadNpmTasks 'grunt-contrib-watch'
-  grunt.loadNpmTasks 'grunt-contrib-coffee'
-  grunt.loadNpmTasks 'grunt-contrib-sass'
+  @loadNpmTasks 'grunt-contrib-watch'
+  @loadNpmTasks 'grunt-contrib-coffee'
+  @loadNpmTasks 'grunt-contrib-sass'
 
-  grunt.initConfig
+  @initConfig
     coffee:
       'compile-client':
         options:
@@ -26,4 +26,4 @@ module.exports = (grunt) ->
         files: ['static/client.coffee', 'server.coffee']
         tasks: ['coffee']
 
-  grunt.registerTask 'default', 'watch'
+  @registerTask 'default', 'watch'
