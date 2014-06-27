@@ -26,4 +26,4 @@ module.exports = ->
         files: ['static/client.coffee', 'server.coffee']
         tasks: ['coffee']
 
-  @registerTask 'default', 'watch'
+  @registerTask 'default', ['sass', 'coffee', 'watch']
