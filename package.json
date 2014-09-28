@@ -9,7 +9,7 @@
   "dependencies": {
     "body-parser": "^1.4.3",
     "express": "^4.4.4",
-    "redis": "^0.10.3"
+    "redis": "^0.12.1"
   },
   "private": true,
   "devDependencies": {
